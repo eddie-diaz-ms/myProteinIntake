@@ -13,7 +13,7 @@ activities = db['user_activities'] # Collection for user activities (predictions
 
 # Load TensorFlow model from file
 def load_model():
-    model_path = './server/model/activity_model.keras'
+    model_path = '/Users/eddiediaz/Desktop/SMU/Mobile/Final_Project/server/model/activity_model.keras'
     model = tf.keras.models.load_model(model_path)
     return model
 
